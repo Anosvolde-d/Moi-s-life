@@ -7,24 +7,24 @@ const profileConfig = {
         name: "anos",
         nickname: "MOI",
         title: "Full Stack Developer",
-        description: "Passionate developer specializing in Python and C++. Creating innovative solutions and expanding my knowledge every day.",
+        description: "Hey! im Moi , i like vibe coding , and can sometimes do serious coding projects , but , i only did 1 serious project for the time being , i speak french and im a little fluent in english,I experiment everyday to improve myself , hope you have a great day!",
         profilePicture: "https://i.etsystatic.com/43905133/r/isla/94ccff/64549231/isla_180x180.64549231_6dw9fw3s.jpg",
         githubUsername: "anos",
         email: "anos@example.com",
-        discordTag: "anos#1234",
+        discordTag: "1124801501592813689",
         location: "Paris, France"
     },
 
     // Social Media Links
     social: {
         github: "https://github.com/anos",
-        discord: "https://discord.com/users/YOUR_DISCORD_ID"
+        discord: "https://discord.com/users/1124801501592813689"
     },
 
     // Discord Configuration
     discord: {
-        userId: "YOUR_DISCORD_USER_ID", // Get this from Discord developer portal
-        clientId: "YOUR_DISCORD_CLIENT_ID", // Optional: for advanced Discord integration
+        userId: "1124801501592813689", // Get this from Discord developer portal
+        clientId: "1442154953316630672", // Optional: for advanced Discord integration
         showStatus: true,
         statusUpdateInterval: 30000, // 30 seconds
         customStatusPhrases: {
@@ -181,4 +181,5 @@ if (typeof module !== 'undefined' && module.exports) {
     module.exports = profileConfig;
 } else {
     window.profileConfig = profileConfig;
+
 }
